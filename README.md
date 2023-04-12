@@ -11,8 +11,8 @@ Practica de gulp y sass
 ## Ver ejemplo en vivo
 [ENLACEGITHUBPAGES] (ENLACEGITHUBPAGES)
 
-## Instalación
-Este proyecto no necesita de instalación. Simplemente abre la carpeta o haz dob
+## link
+https://practica-js-sass-gulp.netlify.app
 
 ## Contratación
 
