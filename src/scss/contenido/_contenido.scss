@@ -1,0 +1,5 @@
+@use '../bas/variables' as v;
+
+h1{
+    color: v.$negro;
+}

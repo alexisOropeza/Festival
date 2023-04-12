@@ -1,0 +1,61 @@
+@use 'bas/mixins' as m;
+@use 'bas/variables' as v;
+
+
+.boletos{
+    background-color: v.$verde;;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    h3{
+        text-align: center;
+        color: v.$blanco;
+        margin-bottom: 2rem;
+    }
+    
+}
+
+.contenedor-boletos{
+   
+    @include m.tablet{
+        @include m.grid(2,4rem);
+    }
+   
+}
+.pase{
+    
+    p{
+        text-align: center;
+        font-size: 2.8rem;
+        color: v.$blanco;
+    }
+    
+}
+
+.beneficios{ 
+    @include m.resetear-lista;
+    background-color: v.$blanco;
+    list-style: none;
+    
+
+    li{
+        border-bottom: 1px solid #e1e1e1;
+        padding: 1rem;
+        font-size: 2rem;
+        margin: 0;
+        &:first-of-type{
+            background-color: v.$rosa;
+            text-align: center;
+            color: v.$blanco;
+        }
+        &:last-of-type{
+            background-color: v.$morado;
+            text-align: center;
+            color: v.$blanco;
+            font-weight: 400;
+            font-size: 3rem;
+            border-bottom: none;
+        }
+    }
+    
+    
+}
